@@ -41,4 +41,3 @@ window.onload = function() {
         document.documentElement.style.setProperty('--fontcolor', fontcolor);
     }
 };
-};
