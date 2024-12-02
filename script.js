@@ -9,7 +9,7 @@ btn.addEventListener('click',function(event){
 	document.cookie = `font-size=${fontsize}`;
 	document.cookie = `font-color=${fontcolor}`;
 
-	document.documentElement.style.setProperty('--fontsize', fontsize);
+	document.documentElement.style.setProperty('--fontsize', fontsize+'px');
 	document.documentElement.style.setProperty('--fontcolor', fontcolor);
 	
 });
